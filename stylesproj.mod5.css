@@ -134,7 +134,7 @@ header {
         height: auto;
         width: 100%;
         position: static;
-        padding: 60px;
+        padding: 90px;
     }
 
     img {
@@ -144,7 +144,7 @@ header {
         align-items: center;
         justify-content: center;
         text-align: center;
-        height: 270px;
+        height: 220px;
     }
 
     header {
@@ -215,6 +215,10 @@ header {
     .container-right {
         
         padding: 45px;
+}
+.container-right {
+    
+    padding: 84px;
 }
 button {
     margin: 70px auto;
