@@ -230,3 +230,9 @@ h1{
     line-height: 35px;
 }
 }
+@media screen and (max-width:1090px){
+    .container-right {
+    
+        padding: 130px;
+    }
+}
