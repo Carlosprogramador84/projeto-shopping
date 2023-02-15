@@ -204,3 +204,20 @@ header {
 
     }
 }
+}
+@media screen and (max-width:290px){
+    p {
+       
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .container-right {
+        
+        padding: 45px;
+}
+button {
+    margin: 70px auto;
+    display: block;
+    width: 120px;
+}
+}
