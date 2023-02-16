@@ -17,7 +17,7 @@
     display: inline-block;
     width: 60%;
     padding-left: 120px;
-    margin-top: 18%;
+    margin-top: 30%;
 }
 
 .container-right {
@@ -28,26 +28,13 @@
     position: absolute;
 
 }
-/*
-figure{
-    margin: 0;
-    margin-top: 100px;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap-reverse;
-    flex-direction: column-reverse;
-}
-*/
-
 
 img {
     position: relative;
     top: 15%;
     right: 100px;
     width: 342px;
-    height: 300px;
+    height: 420px;
 
 }
 
@@ -83,9 +70,7 @@ button {
     color: #FFFFFF;
     border-radius: 50px;
     cursor: pointer;
-    margin-top: 45px;
-    
-
+    margin-top: 45px;  
     
 }
 
@@ -124,8 +109,8 @@ header {
 @media screen and (max-width:1242px) {
     .container-left {
         width: 100%;
-        height: 40%;
-        padding: 20px;
+        /*height: 40%;*/
+        padding: 0;
         margin: 0;
     }
 
@@ -134,17 +119,19 @@ header {
         height: auto;
         width: 100%;
         position: static;
-        padding: 90px;
+       padding: 70px;
+        text-align: center;
+        align-items: center;
     }
 
     img {
         position: static;
         max-width: 100%;
-        /*padding: 20px;*/
+        padding: 30px;
         align-items: center;
         justify-content: center;
         text-align: center;
-        height: 220px;
+        height: 300px;
     }
 
     header {
@@ -180,46 +167,28 @@ header {
         text-align: center;
         font-size: 15px;
         line-height: 24px;
-    }
-    @media screen and (max-width:360px){
-        .container-right {
-            display: block;
-            height: auto;
-            width: 100%;
-            position: static;
-            padding: 110px;
-    }
-    p {
-        margin: 15px 40px;
-        width: auto;
-        text-align: center;
-        font-size: 18px;
-        line-height: 24px;
+
     }
     .container-left {
         width: 100%;
         height: 40%;
         padding: 0;
         margin: 0;
-
-
     }
+
 }
-}
+
 @media screen and (max-width:280px){
     p {
        
-        font-size: 15px;
+        font-size: 10px;
         line-height: 15px;
     }
     .container-right {
         
         padding: 45px;
 }
-.container-right {
-    
-    padding: 84px;
-}
+
 button {
     margin: 70px auto;
     display: block;
@@ -228,11 +197,9 @@ button {
 h1{
     font-size: 31px;
     line-height: 35px;
+    text-align: center;
+    margin-top: 15px;
 }
 }
-@media screen and (max-width:1090px){
-    .container-right {
-    
-        padding: 130px;
-    }
-}
+
+
